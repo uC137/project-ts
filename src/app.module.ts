@@ -6,13 +6,7 @@ import { UsersModule } from './users/users.module';
 
 
 @Module({
-  imports: [TypeOrmModule.forRoot({
-    type: 'sqlite',
-    database: '/www/project-ts/database/database.sqlite',
-    synchronize: true,
-    logging: false,
-    entities: [__dirname + '/../**/*.entity{.ts,.js}'],
-  }), UsersModule],
+  imports: [TypeOrmModule.forRoot(), UsersModule],
   controllers: [AppController],
   providers: [AppService],
 })

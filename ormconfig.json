@@ -1,5 +1,6 @@
 {
   "type": "sqlite",
+  "logging": true,
   "database": "/www/project-ts/database/database.sqlite",
   "entities": ["src/**/**.entity{.ts,.js}"],
   "synchronize": true
