@@ -8,10 +8,13 @@
     "quotemark": [true, "single"],
     "member-access": [false],
     "ordered-imports": [false],
-    "max-line-length": [true, 150],
+    "max-line-length": [true, 180],
     "member-ordering": [false],
     "interface-name": [false],
     "arrow-parens": false,
+    "no-consecutive-blank-lines": false,
+    "no-trailing-whitespace": false,
+    "comment-format": false,
     "object-literal-sort-keys": false
   },
   "rulesDirectory": []
